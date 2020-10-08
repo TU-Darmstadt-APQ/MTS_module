@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title "RF frequency modulator 110MHz"
-Date "2020-10-07"
+Title "RF frequency modulator 80 MHz / 200 MHz"
+Date "2020-10-06"
 Rev "1.2"
 Comp "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
@@ -18,7 +18,7 @@ L Regulator_Linear:LT3032-5 U1
 U 1 1 5ECC3DBE
 P 3400 1650
 F 0 "U1" H 3400 2017 50  0000 C CNN
-F 1 "LT3032-5" H 3400 1926 50  0000 C CNN
+F 1 "LT3032-12" H 3400 1926 50  0000 C CNN
 F 2 "Package_DFN_QFN:Linear_DE14MA" H 3400 1975 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf" H 3400 1650 50  0001 C CNN
 	1    3400 1650
@@ -29,7 +29,7 @@ L Regulator_Linear:LT3032-5 U1
 U 2 1 5ECC51D7
 P 3400 2800
 F 0 "U1" H 3400 3075 50  0000 C CNN
-F 1 "LT3032-5" H 3400 3166 50  0000 C CNN
+F 1 "LT3032-12" H 3400 3166 50  0000 C CNN
 F 2 "Package_DFN_QFN:Linear_DE14MA" H 3400 3125 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3032ff.pdf" H 3400 2800 50  0001 C CNN
 	2    3400 2800
@@ -202,9 +202,9 @@ Wire Wire Line
 	2300 2900 2000 2900
 Connection ~ 2300 2900
 Text GLabel 5850 1550 2    50   Output ~ 0
-+5V
++12V
 Text GLabel 5850 2900 2    50   Output ~ 0
--5V
+-12V
 Wire Wire Line
 	4950 2900 5450 2900
 Connection ~ 4950 2900
@@ -212,11 +212,11 @@ Wire Wire Line
 	4950 1550 5450 1550
 Connection ~ 4950 1550
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP1
 U 1 1 5ECD27D9
 P 5450 1550
-F 0 "TP3" H 5508 1668 50  0000 L CNN
-F 1 "+5V" H 5508 1577 50  0000 L CNN
+F 0 "TP1" H 5508 1668 50  0000 L CNN
+F 1 "+12V" H 5508 1577 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 1550 50  0001 C CNN
 F 3 "~" H 5650 1550 50  0001 C CNN
 	1    5450 1550
@@ -226,10 +226,10 @@ Connection ~ 5450 1550
 Wire Wire Line
 	5450 1550 5850 1550
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP2
 U 1 1 5ECD2CAF
 P 5450 2200
-F 0 "TP4" H 5508 2318 50  0000 L CNN
+F 0 "TP2" H 5508 2318 50  0000 L CNN
 F 1 "GND" H 5508 2227 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 2200 50  0001 C CNN
 F 3 "~" H 5650 2200 50  0001 C CNN
@@ -240,11 +240,11 @@ Connection ~ 5450 2200
 Wire Wire Line
 	5450 2200 5850 2200
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP3
 U 1 1 5ECD2EE5
 P 5450 2900
-F 0 "TP5" H 5508 3018 50  0000 L CNN
-F 1 "-5V" H 5508 2927 50  0000 L CNN
+F 0 "TP3" H 5508 3018 50  0000 L CNN
+F 1 "-12V" H 5508 2927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 2900 50  0001 C CNN
 F 3 "~" H 5650 2900 50  0001 C CNN
 	1    5450 2900
@@ -419,7 +419,7 @@ L Device:R_Small R2
 U 1 1 5ED4C3C2
 P 3050 6600
 F 0 "R2" H 3109 6646 50  0000 L CNN
-F 1 "30k" H 3109 6555 50  0000 L CNN
+F 1 "49.9k" H 3109 6555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 6600 50  0001 C CNN
 F 3 "~" H 3050 6600 50  0001 C CNN
 	1    3050 6600
@@ -544,7 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 5700 3600 6150
 Text GLabel 6000 6150 2    50   Output ~ 0
-+3.0V
++5.0V
 Wire Wire Line
 	6000 6150 5400 6150
 Connection ~ 5400 6150
@@ -613,11 +613,11 @@ Wire Wire Line
 	1550 7100 1850 7100
 Connection ~ 1550 7100
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP5
 U 1 1 5EF568AE
 P 5400 6050
-F 0 "TP2" H 5458 6168 50  0000 L CNN
-F 1 "+3.0V" H 5458 6077 50  0000 L CNN
+F 0 "TP5" H 5458 6168 50  0000 L CNN
+F 1 "+5.0V" H 5458 6077 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5600 6050 50  0001 C CNN
 F 3 "~" H 5600 6050 50  0001 C CNN
 	1    5400 6050
@@ -626,10 +626,10 @@ $EndComp
 Wire Wire Line
 	5400 6050 5400 6150
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP4
 U 1 1 5EF5AD68
 P 5400 4150
-F 0 "TP1" H 5458 4268 50  0000 L CNN
+F 0 "TP4" H 5458 4268 50  0000 L CNN
 F 1 "+3.3V" H 5458 4177 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5600 4150 50  0001 C CNN
 F 3 "~" H 5600 4150 50  0001 C CNN
@@ -639,10 +639,10 @@ $EndComp
 Wire Wire Line
 	5400 4150 5400 4250
 $Comp
-L Regulator_Linear:LM7809_TO220 U12
+L Regulator_Linear:LM7809_TO220 U11
 U 1 1 5F346F39
 P 8900 4500
-F 0 "U12" H 8900 4742 50  0000 C CNN
+F 0 "U11" H 8900 4742 50  0000 C CNN
 F 1 "LM7809_TO220" H 8900 4651 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 8900 4725 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 8900 4450 50  0001 C CNN
@@ -650,10 +650,10 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 8900 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM7805_TO220 U13
+L Regulator_Linear:LM7805_TO220 U12
 U 1 1 5F34789D
 P 10050 4500
-F 0 "U13" H 10050 4742 50  0000 C CNN
+F 0 "U12" H 10050 4742 50  0000 C CNN
 F 1 "LM7805_TO220" H 10050 4651 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 10050 4725 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 10050 4450 50  0001 C CNN
@@ -683,10 +683,10 @@ F 3 "~" H 6850 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C38
+L Device:C_Small C36
 U 1 1 5F353619
 P 8400 4700
-F 0 "C38" H 8492 4746 50  0000 L CNN
+F 0 "C36" H 8492 4746 50  0000 L CNN
 F 1 "100n" H 8492 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8400 4700 50  0001 C CNN
 F 3 "~" H 8400 4700 50  0001 C CNN
@@ -694,10 +694,10 @@ F 3 "~" H 8400 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C37
+L Device:CP_Small C35
 U 1 1 5F35361F
 P 8050 4700
-F 0 "C37" H 8138 4746 50  0000 L CNN
+F 0 "C35" H 8138 4746 50  0000 L CNN
 F 1 "100u" H 8138 4655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8050 4700 50  0001 C CNN
 F 3 "~" H 8050 4700 50  0001 C CNN
@@ -705,10 +705,10 @@ F 3 "~" H 8050 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C42
+L Device:C_Small C38
 U 1 1 5F35754D
 P 9600 4700
-F 0 "C42" H 9692 4746 50  0000 L CNN
+F 0 "C38" H 9692 4746 50  0000 L CNN
 F 1 "100n" H 9692 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9600 4700 50  0001 C CNN
 F 3 "~" H 9600 4700 50  0001 C CNN
@@ -716,10 +716,10 @@ F 3 "~" H 9600 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C40
+L Device:CP_Small C37
 U 1 1 5F357553
 P 9250 4700
-F 0 "C40" H 9338 4746 50  0000 L CNN
+F 0 "C37" H 9338 4746 50  0000 L CNN
 F 1 "100u" H 9338 4655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9250 4700 50  0001 C CNN
 F 3 "~" H 9250 4700 50  0001 C CNN
@@ -727,10 +727,10 @@ F 3 "~" H 9250 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C44
+L Device:C_Small C40
 U 1 1 5F35B123
 P 10750 4700
-F 0 "C44" H 10842 4746 50  0000 L CNN
+F 0 "C40" H 10842 4746 50  0000 L CNN
 F 1 "100n" H 10842 4655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10750 4700 50  0001 C CNN
 F 3 "~" H 10750 4700 50  0001 C CNN
@@ -738,10 +738,10 @@ F 3 "~" H 10750 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C43
+L Device:CP_Small C39
 U 1 1 5F35B129
 P 10400 4700
-F 0 "C43" H 10488 4746 50  0000 L CNN
+F 0 "C39" H 10488 4746 50  0000 L CNN
 F 1 "100u" H 10488 4655 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 10400 4700 50  0001 C CNN
 F 3 "~" H 10400 4700 50  0001 C CNN
@@ -997,10 +997,10 @@ NoConn ~ 1200 1400
 NoConn ~ 1200 1300
 NoConn ~ 1200 1200
 $Comp
-L Regulator_Linear:LM7905_TO220 U11
+L Regulator_Linear:LM7905_TO220 U13
 U 1 1 5F7E051C
 P 8450 3100
-F 0 "U11" H 8450 2858 50  0000 C CNN
+F 0 "U13" H 8450 2858 50  0000 C CNN
 F 1 "LM7905_TO220" H 8450 2949 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 8450 2900 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 8450 3100 50  0001 C CNN
@@ -1008,10 +1008,10 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 8450 3100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP_Small C35
+L Device:CP_Small C41
 U 1 1 5F7E1763
 P 7300 3300
-F 0 "C35" H 7388 3346 50  0000 L CNN
+F 0 "C41" H 7388 3346 50  0000 L CNN
 F 1 "100u" H 7388 3255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7300 3300 50  0001 C CNN
 F 3 "~" H 7300 3300 50  0001 C CNN
@@ -1019,10 +1019,10 @@ F 3 "~" H 7300 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C36
+L Device:C_Small C42
 U 1 1 5F7E1BA1
 P 7750 3300
-F 0 "C36" H 7842 3346 50  0000 L CNN
+F 0 "C42" H 7842 3346 50  0000 L CNN
 F 1 "100n" H 7842 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 3300 50  0001 C CNN
 F 3 "~" H 7750 3300 50  0001 C CNN
@@ -1030,10 +1030,10 @@ F 3 "~" H 7750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C39
+L Device:CP_Small C43
 U 1 1 5F7E8449
 P 9000 3300
-F 0 "C39" H 9088 3346 50  0000 L CNN
+F 0 "C43" H 9088 3346 50  0000 L CNN
 F 1 "100u" H 9088 3255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9000 3300 50  0001 C CNN
 F 3 "~" H 9000 3300 50  0001 C CNN
@@ -1041,10 +1041,10 @@ F 3 "~" H 9000 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C41
+L Device:C_Small C44
 U 1 1 5F7F3421
 P 9450 3300
-F 0 "C41" H 9542 3346 50  0000 L CNN
+F 0 "C44" H 9542 3346 50  0000 L CNN
 F 1 "100n" H 9542 3255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9450 3300 50  0001 C CNN
 F 3 "~" H 9450 3300 50  0001 C CNN

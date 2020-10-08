@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "RF frequency modulator 110MHz"
-Date "2020-10-07"
+Title "RF frequency modulator 80 MHz / 200 MHz"
+Date "2020-10-06"
 Rev "1.2"
 Comp "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
@@ -36,7 +36,7 @@ F 3 "~" H 4650 4150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text GLabel 4900 3000 1    50   Input ~ 0
-+5V
++12V
 Wire Wire Line
 	4900 3000 4900 3150
 Wire Wire Line
@@ -47,7 +47,7 @@ Connection ~ 4900 3150
 Wire Wire Line
 	4900 3150 4900 3250
 Text GLabel 4900 4050 3    50   Input ~ 0
--5V
+-12V
 Wire Wire Line
 	4900 4050 4900 3950
 Wire Wire Line
