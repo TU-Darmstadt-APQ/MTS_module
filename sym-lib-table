@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name custom)(type Legacy)(uri "C:/Users/Tilman Preuschoff/OneDrive/Dokumente/Elektronikprojekte/MTS_RF-Synth/KiCad/Rev1.2_80MHz_200MHz/lib/custom.lib")(options "")(descr ""))
+  (lib (name Custom_logos)(type Legacy)(uri ${KIPRJMOD}/lib/Custom_logos.lib)(options "")(descr ""))
+)
