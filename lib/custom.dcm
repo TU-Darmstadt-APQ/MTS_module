@@ -1,9 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BUF602
-D High-Speed,Closed-LoopBuffer
-$ENDCMP
-#
 $CMP CVCO45CL-0100-0140
 D Crystek Voltage Controlled Oscillator-VCO
 $ENDCMP
