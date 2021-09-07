@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name AD9959_buffered)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty/AD9959_buffered.pretty)(options "")(descr ""))
+  (lib (name APQ_logo)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+)
