@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AD9959 mount"
-Date "2021-08-29"
-Rev "1.0"
+Date "2021-09-18"
+Rev "1.1"
 Comp "APQ"
 Comment1 "Tilman PReuschoff"
 Comment2 ""
