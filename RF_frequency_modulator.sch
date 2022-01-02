@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "RF frequency modulator 110MHz"
-Date "2020-10-07"
-Rev "1.2"
+Date "2021-12-16"
+Rev "1.3"
 Comp "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7150 1400 2200 1250
+S 5550 1300 2200 1250
 U 5ECB423F
 F0 "power_supply" 50
 F1 "power_supply.sch" 50
@@ -24,12 +24,6 @@ S 1900 1300 2750 1850
 U 5ECB4384
 F0 "PLL_VCO" 50
 F1 "PLL_VCO.sch" 50
-$EndSheet
-$Sheet
-S 1850 4100 2150 1350
-U 5ECB4292
-F0 "Sheet5ECB4291" 50
-F1 "demodulation_buffer.sch" 50
 $EndSheet
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
@@ -53,4 +47,10 @@ F 3 "~" H 7200 6750 50  0001 C CNN
 	1    6900 6750
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 1900 4600 3550 2450
+U 61C36F5E
+F0 "error_signal" 50
+F1 "error_signal.sch" 50
+$EndSheet
 $EndSCHEMATC

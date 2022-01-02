@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "RF frequency modulator 110MHz"
-Date "2020-10-07"
-Rev "1.2"
+Date "2021-12-16"
+Rev "1.3"
 Comp "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt"
 Comment1 "Tilman Preuschoff"
 Comment2 ""
@@ -132,8 +132,6 @@ Wire Wire Line
 	2300 2200 3400 2200
 Wire Wire Line
 	2300 2200 2300 2550
-Wire Wire Line
-	4950 2200 5450 2200
 Connection ~ 2300 2200
 Wire Wire Line
 	2300 2750 2300 2900
@@ -205,54 +203,8 @@ Text GLabel 5850 1550 2    50   Output ~ 0
 +5V
 Text GLabel 5850 2900 2    50   Output ~ 0
 -5V
-Wire Wire Line
-	4950 2900 5450 2900
 Connection ~ 4950 2900
-Wire Wire Line
-	4950 1550 5450 1550
 Connection ~ 4950 1550
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5ECD27D9
-P 5450 1550
-F 0 "TP3" H 5508 1668 50  0000 L CNN
-F 1 "+5V" H 5508 1577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 1550 50  0001 C CNN
-F 3 "~" H 5650 1550 50  0001 C CNN
-	1    5450 1550
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 1550
-Wire Wire Line
-	5450 1550 5850 1550
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5ECD2CAF
-P 5450 2200
-F 0 "TP4" H 5508 2318 50  0000 L CNN
-F 1 "GND" H 5508 2227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 2200 50  0001 C CNN
-F 3 "~" H 5650 2200 50  0001 C CNN
-	1    5450 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 2200
-Wire Wire Line
-	5450 2200 5850 2200
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5ECD2EE5
-P 5450 2900
-F 0 "TP5" H 5508 3018 50  0000 L CNN
-F 1 "-5V" H 5508 2927 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5650 2900 50  0001 C CNN
-F 3 "~" H 5650 2900 50  0001 C CNN
-	1    5450 2900
-	1    0    0    -1  
-$EndComp
-Connection ~ 5450 2900
-Wire Wire Line
-	5450 2900 5850 2900
 $Comp
 L Regulator_Linear:LT3045xMSE U?
 U 1 1 5ECD3B98
@@ -1015,6 +967,7 @@ F 0 "C35" H 7388 3346 50  0000 L CNN
 F 1 "100u" H 7388 3255 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 7300 3300 50  0001 C CNN
 F 3 "~" H 7300 3300 50  0001 C CNN
+F 4 "" H 7300 3300 50  0001 C CNN "Config"
 	1    7300 3300
 	-1   0    0    1   
 $EndComp
@@ -1152,4 +1105,130 @@ Wire Wire Line
 Wire Wire Line
 	10750 4300 10750 4500
 Connection ~ 10750 4500
+$Comp
+L Device:D_TVS D4
+U 1 1 61CE382A
+P 1800 950
+F 0 "D4" V 1754 1030 50  0000 L CNN
+F 1 "D_TVS" V 1845 1030 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 1800 950 50  0001 C CNN
+F 3 "~" H 1800 950 50  0001 C CNN
+F 4 "Bourns" V 1800 950 50  0001 C CNN "MFN"
+F 5 "SMBJ40CA-QH" V 1800 950 50  0001 C CNN "PN"
+	1    1800 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 61CEC14E
+P 1800 1200
+F 0 "#PWR0121" H 1800 950 50  0001 C CNN
+F 1 "GND" H 1805 1027 50  0000 C CNN
+F 2 "" H 1800 1200 50  0001 C CNN
+F 3 "" H 1800 1200 50  0001 C CNN
+	1    1800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 61CED512
+P 1550 7500
+F 0 "#PWR0122" H 1550 7250 50  0001 C CNN
+F 1 "GND" H 1555 7327 50  0000 C CNN
+F 2 "" H 1550 7500 50  0001 C CNN
+F 3 "" H 1550 7500 50  0001 C CNN
+	1    1550 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D3
+U 1 1 61CF314E
+P 1550 7250
+F 0 "D3" V 1504 7330 50  0000 L CNN
+F 1 "D_TVS" V 1595 7330 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 1550 7250 50  0001 C CNN
+F 3 "~" H 1550 7250 50  0001 C CNN
+F 4 "Bourns" V 1550 7250 50  0001 C CNN "MFN"
+F 5 "SMBJ40CA-QH" V 1550 7250 50  0001 C CNN "PN"
+	1    1550 7250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 1200 1800 1100
+Wire Wire Line
+	1550 7400 1550 7500
+Wire Wire Line
+	4950 1550 5650 1550
+Wire Wire Line
+	4950 2200 5850 2200
+Wire Wire Line
+	4950 2900 5700 2900
+$Comp
+L Connector_Generic:Conn_01x03 J11
+U 1 1 61D82740
+P 6300 2200
+F 0 "J11" H 6380 2242 50  0000 L CNN
+F 1 "+5V  GND  -5V" H 6380 2151 50  0000 L CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock" H 6300 2200 50  0001 C CNN
+F 3 "~" H 6300 2200 50  0001 C CNN
+	1    6300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1550 5650 2100
+Wire Wire Line
+	5650 2100 6100 2100
+Connection ~ 5650 1550
+Wire Wire Line
+	5650 1550 5850 1550
+Wire Wire Line
+	6100 2200 5850 2200
+Connection ~ 5850 2200
+Connection ~ 5700 2900
+Wire Wire Line
+	5700 2900 5850 2900
+Wire Wire Line
+	5700 2600 6100 2600
+Wire Wire Line
+	6100 2600 6100 2300
+Wire Wire Line
+	5700 2600 5700 2900
+$Comp
+L Connector_Generic:Conn_01x03 J12
+U 1 1 61DB3ED9
+P 9400 1550
+F 0 "J12" H 9480 1592 50  0000 L CNN
+F 1 "+15V  GND  -15V" H 9480 1501 50  0000 L CNN
+F 2 "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock" H 9400 1550 50  0001 C CNN
+F 3 "~" H 9400 1550 50  0001 C CNN
+	1    9400 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 1950 0    50   Input ~ 0
+-15V
+Text GLabel 8750 1450 0    50   Input ~ 0
++15V
+$Comp
+L power:GND #PWR0124
+U 1 1 61DB64BF
+P 8700 1650
+F 0 "#PWR0124" H 8700 1400 50  0001 C CNN
+F 1 "GND" H 8705 1477 50  0000 C CNN
+F 2 "" H 8700 1650 50  0001 C CNN
+F 3 "" H 8700 1650 50  0001 C CNN
+	1    8700 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 1550 8700 1550
+Wire Wire Line
+	8700 1550 8700 1650
+Wire Wire Line
+	8750 1450 9200 1450
+Wire Wire Line
+	8800 1950 9000 1950
+Wire Wire Line
+	9000 1950 9000 1650
+Wire Wire Line
+	9000 1650 9200 1650
 $EndSCHEMATC
