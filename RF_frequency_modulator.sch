@@ -14,16 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5550 1300 2200 1250
+S 900  1300 2200 1250
 U 5ECB423F
 F0 "power_supply" 50
 F1 "power_supply.sch" 50
+F2 "+3V" O R 3100 1500 50 
+F3 "+5V" O R 3100 1900 50 
+F4 "-5V" O R 3100 2050 50 
 $EndSheet
 $Sheet
-S 1900 1300 2750 1850
+S 4550 1250 2750 1850
 U 5ECB4384
 F0 "PLL_VCO" 50
 F1 "PLL_VCO.sch" 50
+F2 "Vcc_VCO" I L 4550 1500 50 
+F3 "Vcc_PFD" I L 4550 1650 50 
+F4 "V+" I L 4550 1900 50 
+F5 "V-" I L 4550 2050 50 
 $EndSheet
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
@@ -48,9 +55,38 @@ F 3 "~" H 7200 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1900 4600 3550 2450
+S 4550 3500 3550 2450
 U 61C36F5E
 F0 "error_signal" 50
 F1 "error_signal.sch" 50
+F2 "V+" I L 4550 4050 50 
+F3 "V-" I L 4550 4250 50 
 $EndSheet
+Wire Wire Line
+	3100 1500 3750 1500
+Wire Wire Line
+	4550 2050 3550 2050
+Wire Wire Line
+	4550 4050 3750 4050
+Wire Wire Line
+	3750 4050 3750 1900
+Connection ~ 3750 1900
+Wire Wire Line
+	3750 1900 4550 1900
+Wire Wire Line
+	4550 4250 3550 4250
+Wire Wire Line
+	3100 1900 3750 1900
+Wire Wire Line
+	3550 4250 3550 2050
+Connection ~ 3550 2050
+Wire Wire Line
+	3550 2050 3100 2050
+Wire Wire Line
+	4550 1650 3750 1650
+Wire Wire Line
+	3750 1650 3750 1500
+Connection ~ 3750 1500
+Wire Wire Line
+	3750 1500 4550 1500
 $EndSCHEMATC
