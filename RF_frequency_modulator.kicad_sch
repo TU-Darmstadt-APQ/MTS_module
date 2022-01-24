@@ -885,8 +885,14 @@
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-000061ce382a"
       (reference "D4") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_SMB")
     )
+    (path "/00000000-0000-0000-0000-00005ecb423f/21c7dc41-ea7f-4524-8ba4-67fde2728656"
+      (reference "D?") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/2ef4e2a0-569d-406c-a4f6-8c124bbdfb80"
+      (reference "D?") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005f42884b"
-      (reference "J1") (unit 1) (value "C64AC") (footprint "footprints:Socket_DIN41612-CaseC1-AC-Male-64Pin-2rows")
+      (reference "J1") (unit 1) (value "C64AC") (footprint "Connector_DIN:DIN41612_C_2x32_Male_Horizontal_THT")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005f7eb743"
       (reference "J2") (unit 1) (value "DDS_Supply") (footprint "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock")
