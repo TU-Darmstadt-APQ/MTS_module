@@ -6,8 +6,8 @@
 
   (title_block
     (title "RF frequency modulator 110MHz")
-    (date "2021-12-16")
-    (rev "1.3")
+    (date "2022-01-25")
+    (rev "1.3.1")
     (company "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -383,6 +383,241 @@
         )
       )
     )
+    (symbol "Mechanical:Housing" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "N" (id 0) (at 3.81 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Housing" (id 1) (at 3.81 -1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (id 2) (at 1.27 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 1.27 1.27 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "housing enclosure" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Housing" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Enclosure* Housing*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Housing_0_1"
+        (rectangle (start -5.08 -0.635) (end -1.27 -1.905)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center -4.445 -3.175) (radius 0.635)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (circle (center -1.905 -3.175) (radius 0.635)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy -4.5212 -1.5748)
+            (xy -4.4704 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.4196 -1.6764)
+            (xy -4.064 -1.6764)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.4196 -1.2192)
+            (xy -4.3688 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -1.3208)
+            (xy -4.0132 -1.3208)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.2164 -0.9144)
+            (xy -3.9116 -0.9144)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.9116 -1.6256)
+            (xy -3.8608 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.81 -1.2192)
+            (xy -3.7592 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.6068 -1.5748)
+            (xy -3.556 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.5052 -1.6764)
+            (xy -3.1496 -1.6764)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.5052 -1.2192)
+            (xy -3.4544 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.4036 -1.3208)
+            (xy -3.0988 -1.3208)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.302 -0.9144)
+            (xy -2.9972 -0.9144)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.9972 -1.6256)
+            (xy -2.9464 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.8956 -1.2192)
+            (xy -2.8448 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.6924 -1.5748)
+            (xy -2.6416 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.5908 -1.6764)
+            (xy -2.2352 -1.6764)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.5908 -1.2192)
+            (xy -2.54 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.4892 -1.3208)
+            (xy -2.1844 -1.3208)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.3876 -0.9144)
+            (xy -2.0828 -0.9144)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.0828 -1.6256)
+            (xy -2.032 -1.3716)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.9812 -1.2192)
+            (xy -1.9304 -0.9652)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy -0.635 -4.445)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 0)
+            (xy -0.635 0)
+            (xy 3.175 3.81)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 0)
+            (xy -5.715 -4.445)
+            (xy -0.635 -4.445)
+            (xy 3.175 -0.635)
+            (xy 3.175 3.81)
+            (xy -1.905 3.81)
+            (xy -5.715 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
   )
 
   (junction (at 90.17 52.07) (diameter 0) (color 0 0 0 0)
@@ -474,6 +709,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 182.88 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Housing") (at 33.02 134.62 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 502baeba-5eb0-4abb-aa89-c5aa74a6ea7f)
+    (property "Reference" "N1" (id 0) (at 36.83 133.6674 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "AD9959 DDS board (Gra&Afch/Arduino Mega)" (id 1) (at 36.83 136.2074 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "footprints:Arduino_Mega_mechanical" (id 2) (at 34.29 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 34.29 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -886,10 +1138,10 @@
       (reference "D4") (unit 1) (value "D_TVS") (footprint "Diode_SMD:D_SMB")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/21c7dc41-ea7f-4524-8ba4-67fde2728656"
-      (reference "D?") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D5") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/2ef4e2a0-569d-406c-a4f6-8c124bbdfb80"
-      (reference "D?") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D6") (unit 1) (value "PMEG2010") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005f42884b"
       (reference "J1") (unit 1) (value "C64AC") (footprint "Connector_DIN:DIN41612_C_2x32_Male_Horizontal_THT")
@@ -935,6 +1187,9 @@
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fa727f9"
       (reference "LOGO5") (unit 1) (value "Logo_ROHS") (footprint "Symbol:RoHS-Logo_6mm_SilkScreen")
+    )
+    (path "/502baeba-5eb0-4abb-aa89-c5aa74a6ea7f"
+      (reference "N1") (unit 1) (value "AD9959 DDS board (Gra&Afch/Arduino Mega)") (footprint "footprints:Arduino_Mega_mechanical")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005eceed3b"
       (reference "R1") (unit 1) (value "49.9k") (footprint "Capacitor_SMD:C_0603_1608Metric")
