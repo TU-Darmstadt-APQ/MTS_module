@@ -694,6 +694,9 @@
     (property "Datasheet" "~" (id 3) (at 275.59 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Config" "DNF" (id 4) (at 275.59 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Custom_logos:Logo_APQ") (at 175.26 171.45 0) (unit 1)
@@ -711,6 +714,9 @@
     (property "Datasheet" "~" (id 3) (at 182.88 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Config" "DNF" (id 4) (at 175.26 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Mechanical:Housing") (at 33.02 134.62 0) (unit 1)
@@ -726,6 +732,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 34.29 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Config" "DNF" (id 4) (at 33.02 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -997,7 +1006,7 @@
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005ed4c3c8"
-      (reference "C6") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ed734f"
       (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1024,7 +1033,7 @@
       (reference "C14") (unit 1) (value "330p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed27f88"
-      (reference "C15") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf2a72"
       (reference "C16") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1051,7 +1060,7 @@
       (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed55d74"
-      (reference "C24") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C24") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed9e7d6"
       (reference "C25") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1192,7 +1201,7 @@
       (reference "N1") (unit 1) (value "AD9959 DDS board (Gra&Afch/Arduino Mega)") (footprint "footprints:Arduino_Mega_mechanical")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005eceed3b"
-      (reference "R1") (unit 1) (value "49.9k") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "R1") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005ed4c3c2"
       (reference "R2") (unit 1) (value "30k") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1201,7 +1210,7 @@
       (reference "R3") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-0000620027dd"
-      (reference "R4") (unit 1) (value "49.9k") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "R4") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2b4e8"
       (reference "R5") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1225,13 +1234,13 @@
       (reference "R11") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fad9f56"
-      (reference "R11A1") (unit 1) (value "154") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R11A1") (unit 1) (value "2.49k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf63ce"
       (reference "R12") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada6ba"
-      (reference "R12A1") (unit 1) (value "158") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R12A1") (unit 1) (value "2.94k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf5dd1"
       (reference "R13") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1261,13 +1270,13 @@
       (reference "R21") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada3b7"
-      (reference "R21A1") (unit 1) (value "154") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R21A1") (unit 1) (value "2.49k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f36483f"
       (reference "R22") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fadac2c"
-      (reference "R22A1") (unit 1) (value "158") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R22A1") (unit 1) (value "2.94k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f8686a2"
       (reference "R23") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1297,13 +1306,13 @@
       (reference "R31") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada24c"
-      (reference "R31A1") (unit 1) (value "196") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R31A1") (unit 1) (value "2.74k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e3d7"
       (reference "R32") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada953"
-      (reference "R32A1") (unit 1) (value "61.9") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R32A1") (unit 1) (value "845") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e3cd"
       (reference "R33") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1339,13 +1348,13 @@
       (reference "U6") (unit 1) (value "CVCO45CL-0100-0140") (footprint "footprints:CVCO45CL-0100-0140")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061d1a7c5"
-      (reference "U7") (unit 1) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm")
+      (reference "U7") (unit 1) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061d10e2c"
-      (reference "U7") (unit 2) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm")
+      (reference "U7") (unit 2) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061d1465a"
-      (reference "U7") (unit 3) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm")
+      (reference "U7") (unit 3) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ee74656"
       (reference "U8") (unit 1) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
