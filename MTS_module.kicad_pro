@@ -50,6 +50,10 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
+        "courtyards_overlap|204600001|105220001|00000000-0000-0000-0000-00005f7d0f51|00000000-0000-0000-0000-000061e893f3",
+        "courtyards_overlap|204600001|108870001|00000000-0000-0000-0000-00005f7d0f11|00000000-0000-0000-0000-000061e893f3",
+        "courtyards_overlap|206170001|105220001|00000000-0000-0000-0000-00005f7d0f41|00000000-0000-0000-0000-000061e893f3",
+        "courtyards_overlap|206720001|112480001|00000000-0000-0000-0000-00005f7e3d80|00000000-0000-0000-0000-000061e893f3",
         "silk_over_copper|240000000|94850000|00000000-0000-0000-0000-00005edeb591|557d128f-cf69-4c70-9959-d139ac95c63c",
         "silk_over_copper|240000000|99890000|00000000-0000-0000-0000-00005edeb591|b2cac11a-5f3b-43d7-88e5-8d0241ac6453"
       ],
@@ -352,7 +356,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RF_frequency_modulator.kicad_pro",
+    "filename": "MTS_module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -386,7 +390,7 @@
       "idf": "",
       "netlist": "RF_frequency_modulator.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RF_frequency_modulator.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

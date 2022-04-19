@@ -20,4 +20,4 @@ Thumbs.db
 *.tmp
 fp-info-cache
 _autosave-*
-RF_frequency_modulator-backups/
+*-backups/

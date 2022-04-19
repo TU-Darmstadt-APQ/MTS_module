@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "RF frequency modulator 110MHz")
-    (date "2022-01-25")
-    (rev "1.3.1")
+    (title "MTS module: 110MHz")
+    (date "2022-04-20")
+    (rev "1.3.2")
     (company "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -383,241 +383,6 @@
         )
       )
     )
-    (symbol "Mechanical:Housing" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "N" (id 0) (at 3.81 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Housing" (id 1) (at 3.81 -1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (id 2) (at 1.27 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 1.27 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "housing enclosure" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Housing" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Enclosure* Housing*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Housing_0_1"
-        (rectangle (start -5.08 -0.635) (end -1.27 -1.905)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -4.445 -3.175) (radius 0.635)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (circle (center -1.905 -3.175) (radius 0.635)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -4.5212 -1.5748)
-            (xy -4.4704 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.4196 -1.6764)
-            (xy -4.064 -1.6764)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.4196 -1.2192)
-            (xy -4.3688 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -1.3208)
-            (xy -4.0132 -1.3208)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.2164 -0.9144)
-            (xy -3.9116 -0.9144)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.9116 -1.6256)
-            (xy -3.8608 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -1.2192)
-            (xy -3.7592 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.6068 -1.5748)
-            (xy -3.556 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.5052 -1.6764)
-            (xy -3.1496 -1.6764)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.5052 -1.2192)
-            (xy -3.4544 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.4036 -1.3208)
-            (xy -3.0988 -1.3208)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 -0.9144)
-            (xy -2.9972 -0.9144)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.9972 -1.6256)
-            (xy -2.9464 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.8956 -1.2192)
-            (xy -2.8448 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.6924 -1.5748)
-            (xy -2.6416 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.5908 -1.6764)
-            (xy -2.2352 -1.6764)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.5908 -1.2192)
-            (xy -2.54 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.4892 -1.3208)
-            (xy -2.1844 -1.3208)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.3876 -0.9144)
-            (xy -2.0828 -0.9144)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.0828 -1.6256)
-            (xy -2.032 -1.3716)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.9812 -1.2192)
-            (xy -1.9304 -0.9652)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.635 0)
-            (xy -0.635 -4.445)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.715 0)
-            (xy -0.635 0)
-            (xy 3.175 3.81)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.715 0)
-            (xy -5.715 -4.445)
-            (xy -0.635 -4.445)
-            (xy 3.175 -0.635)
-            (xy 3.175 3.81)
-            (xy -1.905 3.81)
-            (xy -5.715 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-      )
-    )
   )
 
   (junction (at 90.17 52.07) (diameter 0) (color 0 0 0 0)
@@ -715,26 +480,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Config" "DNF" (id 4) (at 175.26 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "Mechanical:Housing") (at 33.02 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 502baeba-5eb0-4abb-aa89-c5aa74a6ea7f)
-    (property "Reference" "N1" (id 0) (at 36.83 133.6674 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "AD9959 DDS board (Gra&Afch/Arduino Mega)" (id 1) (at 36.83 136.2074 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "footprints:Arduino_Mega_mechanical" (id 2) (at 34.29 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 34.29 133.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Config" "DNF" (id 4) (at 33.02 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -969,7 +714,7 @@
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005f382490"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f364529"
+    (path "/00000000-0000-0000-0000-000061c36f5e/604623f6-150d-4df5-bdca-cf0bad3cdc01"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e373"
@@ -989,6 +734,9 @@
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/e953b70e-1a7d-4e1b-a2fc-15fa3e9fb900"
       (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c36f5e/6b34f75d-6a9f-46fd-b5f6-0b0f509981bb"
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ed6e2b"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -1036,7 +784,7 @@
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf2a72"
-      (reference "C16") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C16") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed69e8b"
       (reference "C17") (unit 1) (value "24n") (footprint "Capacitor_SMD:C_1206_3216Metric")
@@ -1119,6 +867,9 @@
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e369"
       (reference "C43") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005ecb4384/b2eaa6ea-ec9d-4660-b7d2-2b5daa685843"
+      (reference "C44") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fac197d"
       (reference "C45") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1133,6 +884,12 @@
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fb9116b"
       (reference "C49") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061c36f5e/2bab77b8-aebc-4bf7-b377-d38389cb0673"
+      (reference "C50") (unit 1) (value "10n(C0G)") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061c36f5e/6bbf7d53-00ca-4a85-8da0-8abb9b51ed7e"
+      (reference "C51") (unit 1) (value "10n(C0G)") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2bae8"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D4.0mm")
@@ -1162,7 +919,7 @@
       (reference "J3") (unit 1) (value "PD_In") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00006188120f"
-      (reference "J4") (unit 1) (value "Ref_In_A") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
+      (reference "J4") (unit 1) (value "Ref_In_A") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fb38e3f"
       (reference "J5") (unit 1) (value "Error_Out") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
@@ -1171,13 +928,13 @@
       (reference "J6") (unit 1) (value "RF_Shield_One_Piece") (footprint "RF_Shielding:Laird_Technologies_BMI-S-107_44.37x44.37mm")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed3426d"
-      (reference "J7") (unit 1) (value "Ref_In") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
+      (reference "J7") (unit 1) (value "Ref_In") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2c242"
       (reference "J8") (unit 1) (value "PLL") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ede73aa"
-      (reference "J9") (unit 1) (value "Mod_In") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")
+      (reference "J9") (unit 1) (value "Mod_In") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed65d33"
       (reference "J10") (unit 1) (value "RF_Out") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
@@ -1197,9 +954,6 @@
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fa727f9"
       (reference "LOGO5") (unit 1) (value "Logo_ROHS") (footprint "Symbol:RoHS-Logo_6mm_SilkScreen")
     )
-    (path "/502baeba-5eb0-4abb-aa89-c5aa74a6ea7f"
-      (reference "N1") (unit 1) (value "AD9959 DDS board (Gra&Afch/Arduino Mega)") (footprint "footprints:Arduino_Mega_mechanical")
-    )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005eceed3b"
       (reference "R1") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -1213,10 +967,10 @@
       (reference "R4") (unit 1) (value "49.9k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2b4e8"
-      (reference "R5") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ede73be"
-      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed6b4c1"
       (reference "R7") (unit 1) (value "140") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1228,7 +982,7 @@
       (reference "R9") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed5abcb"
-      (reference "R10") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R10") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ee0817a"
       (reference "R11") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1249,7 +1003,7 @@
       (reference "R14") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f2ba399"
-      (reference "R15") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R15") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed612eb"
       (reference "R16") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
@@ -1261,19 +1015,19 @@
       (reference "R18") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00006182ad82"
-      (reference "R19") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
+      (reference "R19") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fbc3645"
       (reference "R20") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f3640fd"
-      (reference "R21") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000061c36f5e/358b64a6-60e7-420f-afcd-fb2559690983"
+      (reference "R21") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada3b7"
       (reference "R21A1") (unit 1) (value "2.49k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f36483f"
-      (reference "R22") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000061c36f5e/a46ffb51-00e6-4dce-90cc-9aaecd2c2eca"
+      (reference "R22") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fadac2c"
       (reference "R22A1") (unit 1) (value "2.94k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1282,19 +1036,16 @@
       (reference "R23") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061b85156"
-      (reference "R24") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R24") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061b85b16"
       (reference "R25") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061c94c96"
-      (reference "R26") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061999a3d"
       (reference "R27") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-0000618815b0"
-      (reference "R28") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
+      (reference "R28") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fba7e1b"
       (reference "R29") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
@@ -1315,7 +1066,7 @@
       (reference "R32A1") (unit 1) (value "845") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e3cd"
-      (reference "R33") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R33") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/fb46d9d9-7cf1-41b4-8c57-a205dd3f14aa"
       (reference "R34") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
