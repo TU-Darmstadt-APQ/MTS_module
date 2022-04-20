@@ -1015,7 +1015,7 @@
       (reference "R18") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00006182ad82"
-      (reference "R19") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R19") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fbc3645"
       (reference "R20") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
