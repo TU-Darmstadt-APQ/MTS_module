@@ -34,7 +34,7 @@ Assembly
 
 
 
-The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and controls of the DDS board are moved to the frontpanel as intended by the manufacturer. Use the [rotary encoder breakout board](https://github.com/TU-Darmstadt-APQ/rotary_encoder_breakout) for this task. See ***frontpanel/*** folder for drawings and BOM.
+The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and controls of the DDS board are moved to the frontpanel as intended by the manufacturer. Use the [rotary encoder breakout board](https://github.com/TU-Darmstadt-APQ/rotary_encoder_breakout) for this task. See `frontpanel/` folder for drawings and BOM.
 
 
 
@@ -62,7 +62,23 @@ Requirements
 - Dual power supply
    - +15 V (0.5 A typ.)
    - \- 15 V (0.1 A typ.)
+   
 - 19-inch rack mount (e.g. [Fischer Elektronik BGT384](https://www.fischerelektronik.de/web_fischer/en_GB/cases/N05.1/19%22%20subracks/$catalogue/fischerData/PR/BGT384_180/search.xhtml))
+
+   
+
+Versions
+-------
+
+The VCO type determines the output frequency range of the AOM signal.
+
+- `110MHz_VCO (master)`: 100 to 140 MHz
+
+- `80MHz/200MHz_VCO`: 60 to 110 MHz or 140 to 250 MHz with identical PCB
+- `80MHz/200MHz_VCO_Rev1.2`: deprecated version
+
+
+
 
 
 License
