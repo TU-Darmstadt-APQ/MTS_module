@@ -2273,7 +2273,7 @@
     (fp_line (start -1.45 -2.75) (end -1.45 2.75) (layer "F.CrtYd") (width 0.05) (tstamp 9640e044-e4b2-4c33-9e1c-1d9894a69337))
     (fp_line (start 4 2.75) (end 4 -2.75) (layer "F.CrtYd") (width 0.05) (tstamp f220d6a7-3170-4e04-8de6-2df0c3962fe0))
     (fp_line (start -0.73 -1.32665) (end -0.73 1.32665) (layer "F.Fab") (width 0.1) (tstamp fcfb3f77-487d-44de-bd4e-948fbeca3220))
-    (fp_arc (start -0.73 -1.32665) (mid 3.670001 0.000308) (end -0.730339 1.32614) (layer "F.Fab") (width 0.1) (tstamp 22c28634-55a5-4f76-9217-6b70ddd108b8))
+    (fp_arc (start -0.73 -1.32665) (mid 3.67 0.000306) (end -0.730339 1.32614) (layer "F.Fab") (width 0.1) (tstamp 22c28634-55a5-4f76-9217-6b70ddd108b8))
     (fp_circle (center 1.27 0) (end 3.27 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 234e1024-0b7f-410c-90bb-bae43af1eb25))
     (pad "1" thru_hole rect locked (at 0 0 90) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "K") (pintype "passive") (tstamp 0c544a8c-9f45-4205-9bca-1d91c95d58ef))
@@ -2402,10 +2402,10 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp a62fdd31-fc3b-4afa-93d6-5cdcaa6f6204))
     (pad "2" thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp d6725194-6813-43bc-95a6-18a8e834255b))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132203-12_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D_models/901-143-3.stp"
+      (offset (xyz 0 2.5 6.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -4130,10 +4130,10 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp de0a5fd6-8f6f-4201-9cef-fdd081f13158))
     (pad "2" thru_hole circle (at 2.54 -2.54 90) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp eee92924-2753-4d29-aa5f-9758e2f57edd))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132203-12_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D_models/901-143-3.stp"
+      (offset (xyz 0 2.5 6.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -4994,7 +4994,7 @@
       (net 51 "V+") (pinfunction "V+") (pintype "power_in") (tstamp a1242316-6c35-41bf-acfa-72358e1b6d49))
     (pad "9" smd rect (at 0 0) (size 2.41 3.3) (layers "F.Cu" "F.Mask")
       (net 69 "unconnected-(U7-Pad9)") (pinfunction "EP") (pintype "passive+no_connect") (tstamp 588452ee-d168-4985-99ec-a2ced883aefd))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -6488,10 +6488,10 @@
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp a5ea4a1f-1903-4930-8eca-c8833dcc2150))
     (pad "2" thru_hole circle locked (at 2.54 2.54 180) (size 2.25 2.25) (drill 1.7) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Ext") (pintype "passive") (tstamp e2b2a47e-f126-4d77-a2fc-7296174ded72))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132203-12_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D_models/901-143-3.stp"
+      (offset (xyz 0 2.5 6.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 180 0 -90))
     )
   )
 
@@ -41642,7 +41642,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 14b56486-a565-4ad2-9d4e-44e6442ea175) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -41656,7 +41656,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 32a33c14-ad35-4ab3-9d14-69821847ef1b) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -41670,7 +41670,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 49b7236a-821c-4deb-be5e-c6a591113940) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -41684,7 +41684,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 54cef379-8a16-4ade-956d-519a53329bc3) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -41698,7 +41698,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp f27a0a1a-93ad-49f4-89fe-1730de977ec9) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -41712,7 +41712,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp f42c6fb6-c981-412b-ba48-b5195e6314ca) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
