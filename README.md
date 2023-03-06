@@ -40,7 +40,7 @@ The PCB and the DDS are placed in a standard 19''-rack mount unit. Display and c
 
 Assembly units (see BOM for details)
 
-- PDH-module PCB
+- MTS module PCB
 
 - [Gra&Afch AD9959](https://gra-afch.com/product-tag/dds-ad9959/)
 
