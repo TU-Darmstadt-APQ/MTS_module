@@ -784,10 +784,10 @@
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf2a72"
-      (reference "C16") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C16") (unit 1) (value "10n(C0G)") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed69e8b"
-      (reference "C17") (unit 1) (value "24n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C17") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed6a3cf"
       (reference "C18") (unit 1) (value "330n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
@@ -796,7 +796,7 @@
       (reference "C19") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed6a7c0"
-      (reference "C20") (unit 1) (value "11n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C20") (unit 1) (value "10n(C0G)") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed57d25"
       (reference "C21") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
