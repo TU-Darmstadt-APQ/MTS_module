@@ -2781,7 +2781,7 @@
     (uuid 00000000-0000-0000-0000-00006220b71c)
     (property "Reference" "U15" (id 0) (at 130.81 40.2082 0))
     (property "Value" "SYPD-1" (id 1) (at 130.81 42.5196 0))
-    (property "Footprint" "RF_Mini-Circuits:Mini-Circuits_TTT167_LandPatternPL-079" (id 2) (at 128.27 60.96 0)
+    (property "Footprint" "footprints:Mini-Circuits_TTT167_LandPatternPL-079_DNF" (id 2) (at 128.27 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.minicircuits.com/pdfs/SYPD-1+.pdf" (id 3) (at 125.73 58.42 0)
