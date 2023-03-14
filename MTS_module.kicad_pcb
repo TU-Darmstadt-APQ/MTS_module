@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "MTS module: 110Mhz")
-    (date "2022-09-06")
-    (rev "1.3.2")
+    (date "2023-03-14")
+    (rev "1.3.3")
     (company "Atoms-Photons-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
@@ -3566,6 +3566,11 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp a4b198ad-c5ca-4620-8bf2-9b8fd3f75101))
     (pad "6" smd rect (at 0 -9.65 90) (size 1.52 1.52) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp cca668a9-45f8-4cd5-83bc-0a05faba534a))
+    (model "${KIPRJMOD}/3D_models/_CVCO45CL-0100-0140_CRX.step"
+      (offset (xyz 4.5 5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
@@ -6314,7 +6319,7 @@
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (zone_connect 2) (tstamp 3fe1a6cf-50c8-45f2-bcfd-d553114091f6))
     (pad "6" smd rect (at -4.445 -4.3815 270) (size 1.778 1.524) (layers "F.Cu" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (zone_connect 2) (tstamp a94eb542-e61b-45da-bc72-025a326ad941))
-    (model "${KICAD6_3DMODEL_DIR}/RF_Mini-Circuits.3dshapes/Mini-Circuits_TTT167.wrl"
+    (model "${KIPRJMOD}/3D_models/User Library-SYPD-1.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9148,7 +9153,7 @@
   (gr_text "Design by: Tilman Preuschoff\nhttps://github.com/TU-Darmstadt-APQ/RF_frequency_modulator" (at 224.5 51.5) (layer "B.SilkS") (tstamp 3b5cbb6d-677b-4641-88bd-7044bfd6bfae)
     (effects (font (size 1.5 1.5) (thickness 0.25)) (justify left mirror))
   )
-  (gr_text "RF Frequency Modulator\n100-140 MHz\n04/2022 Revision 1.3.2" (at 120.5 52.5) (layer "F.SilkS") (tstamp 5cdb2718-315e-4c06-804f-561b680e75ba)
+  (gr_text "RF Frequency Modulator\n100-140 MHz\n03/2023 Revision 1.3.3" (at 120.5 52.5) (layer "F.SilkS") (tstamp 5cdb2718-315e-4c06-804f-561b680e75ba)
     (effects (font (size 1.5 1.5) (thickness 0.25)) (justify left))
   )
   (gr_text "+3.3V" (at 172.6 117.9) (layer "F.SilkS") (tstamp 93927c49-5ee1-4ac6-b668-9cc01dba8402)
