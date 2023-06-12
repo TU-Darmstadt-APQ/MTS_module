@@ -1093,7 +1093,7 @@
       (reference "U4") (unit 1) (value "HMC1031") (footprint "footprints:MSOP-8_3x3mm_P0.65mm_mod_DNF")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ed7370"
-      (reference "U5") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U5") (unit 1) (value "OPA695") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f384935"
       (reference "U6") (unit 1) (value "CVCO45CL-0100-0140") (footprint "footprints:CVCO45CL-0100-0140_DNF")
@@ -1117,7 +1117,7 @@
       (reference "U8") (unit 3) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/bc361c07-220f-4f3d-bc54-642e2b42bbeb"
-      (reference "U9") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U9") (unit 1) (value "OPA695") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005f345b93"
       (reference "U10") (unit 1) (value "LM7812_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
@@ -1129,10 +1129,10 @@
       (reference "U12") (unit 1) (value "LM7808_TO220") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ea93cd"
-      (reference "U13") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U13") (unit 1) (value "OPA695") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061b1b6cf"
-      (reference "U14") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U14") (unit 1) (value "OPA695") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00006220b71c"
       (reference "U15") (unit 1) (value "SYPD-1") (footprint "footprints:Mini-Circuits_TTT167_LandPatternPL-079_DNF")
@@ -1141,7 +1141,7 @@
       (reference "U16") (unit 1) (value "LT1568") (footprint "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e3b1"
-      (reference "U17") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+      (reference "U17") (unit 1) (value "OPA695") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
   )
 )
