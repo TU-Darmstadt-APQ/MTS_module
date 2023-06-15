@@ -1,4 +1,4 @@
-### Module positions - created on Mon Jun 12 15:50:25 2023 ###
+### Module positions - created on Thu Jun 15 15:45:20 2023 ###
 ### Printed by Pcbnew version (6.0.7)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -63,7 +63,7 @@ D6        PMEG2010             SOT-23                                           
 J1        C64AC                DIN41612_C_2x32_Male_Horizontal_THT                   55.4000  -138.1000   90.0000  top
 J2        DDS_Supply           Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock   123.2000   -70.1400   90.0000  top
 J3        PD_In                SMA_Amphenol_132289_EdgeMount                        207.3000   -86.1000    0.0000  top
-J4        Ref_In_A             SMA_Amphenol_132203-12_Horizontal                    149.3000   -79.9000   90.0000  top
+J4        Ref_In_A             SMA_Amphenol_132203-12_Horizontal                    149.3000   -84.3000   90.0000  top
 J5        Error_Out            SMA_Amphenol_132289_EdgeMount                        207.3000   -63.8000    0.0000  top
 J6        RF_Shield_One_Piece  Laird_Technologies_BMI-S-107_44.37x44.37mm           179.4000   -73.9000    0.0000  top
 J7        Ref_In               SMA_Amphenol_132203-12_Horizontal                    111.9000  -115.1000    0.0000  top
@@ -113,7 +113,7 @@ R32A1     845                  R_0603_1608Metric                                
 R33       100                  R_0603_1608Metric                                    159.5000   -86.3000  -90.0000  top
 R34       390                  R_0603_1608Metric                                    149.0000  -121.3750   90.0000  top
 R35       390                  R_0603_1608Metric                                    150.6000  -123.1000   90.0000  top
-RV1       500                  Potentiometer_Vishay_43_Horizontal                   195.4000   -99.9000  180.0000  top
+RV1       500                  Potentiometer_Vishay_43_Horizontal                   193.8800   -99.9000  180.0000  top
 TP2       +3.0V                TestPoint_Keystone_5000-5004_Miniature                82.9000  -141.7000    0.0000  top
 U1        LT3094xMSE           MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm               78.6000   -91.9000    0.0000  top
 U2        LT3045xMSE           MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm               78.5000  -121.8000    0.0000  top

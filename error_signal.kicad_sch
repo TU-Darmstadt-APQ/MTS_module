@@ -6,8 +6,8 @@
 
   (title_block
     (title "MTS module: 110MHz")
-    (date "2023-03-22")
-    (rev "1.3.3")
+    (date "2023-06-15")
+    (rev "1.3.4")
     (company "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt")
     (comment 1 "Tilman Preuschoff")
   )
