@@ -919,7 +919,7 @@
       (reference "J3") (unit 1) (value "PD_In") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00006188120f"
-      (reference "J4") (unit 1) (value "Ref_In_A") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
+      (reference "J4") (unit 1) (value "Demod_In") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fb38e3f"
       (reference "J5") (unit 1) (value "Error_Out") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
@@ -928,7 +928,7 @@
       (reference "J6") (unit 1) (value "RF_Shield_One_Piece") (footprint "RF_Shielding:Laird_Technologies_BMI-S-107_44.37x44.37mm")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed3426d"
-      (reference "J7") (unit 1) (value "Ref_In") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
+      (reference "J7") (unit 1) (value "Center_In") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2c242"
       (reference "J8") (unit 1) (value "PLL") (footprint "Connector_Coaxial:SMA_Amphenol_901-144_Vertical")

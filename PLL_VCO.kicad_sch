@@ -1634,7 +1634,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ed3426d)
     (property "Reference" "J7" (id 0) (at 17.0688 119.6848 0))
-    (property "Value" "Ref_In" (id 1) (at 17.0688 121.9962 0))
+    (property "Value" "Center_In" (id 1) (at 17.0688 121.9962 0))
     (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" (id 2) (at 15.24 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )

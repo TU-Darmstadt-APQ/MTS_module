@@ -2175,7 +2175,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006188120f)
     (property "Reference" "J4" (id 0) (at 205.8162 42.2148 0))
-    (property "Value" "Ref_In_A" (id 1) (at 205.8162 44.5262 0))
+    (property "Value" "Demod_In" (id 1) (at 205.8162 44.5262 0))
     (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" (id 2) (at 207.645 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
