@@ -53,7 +53,7 @@ Assembly units (see BOM for details)
 Related work
 --------------------
 
-
+T. Preuschoff, *Laser Technologies for Applications in Quantum Information Science*, Ph.D. thesis, TU Darmstadt, 2023, [https://tuprints.ulb.tu-darmstadt.de/23242/](https://tuprints.ulb.tu-darmstadt.de/23242/)
 
 
 
