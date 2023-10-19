@@ -12,15 +12,15 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 11,"Schottky diode, cathode on pins 2 and 3",D_Schottky_AKK,D2 D5 D6,PMEG2010,SOT-23,3,~,Nexperia,"PMEG2010AET,215",
 12,"DIN41612 connector, double row (AC), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)",DIN41612_02x32_AC,J1,C64AC,DIN41612_C_2x32_Male_Horizontal_THT,1,~,Harting,09031646921,
 13,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03,J2,DDS_Supply,Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock,1,~,Molex,22-23-2031,
-14,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J5 J10,PD_In,SMA_Amphenol_132289_EdgeMount,3, ~,Amphenol,132289,
-15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J7 J9,Ref_In_A,SMA_Amphenol_132203-12_Horizontal,3, ~,Amphenol,901-143-6RFX,
-16,"Resistor, small symbol",R_Small,R14 R24,20,R_0603_1608Metric,2,~,Yageo,RC0603FR-0720RL,
+14,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J4 J7 J9,Demod_In,SMA_Amphenol_132203-12_Horizontal,3, ~,Amphenol,901-143-6RFX,
+15,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)",Conn_Coaxial,J3 J5 J10,PD_In,SMA_Amphenol_132289_EdgeMount,3, ~,Amphenol,132289,
+16,"Resistor, small symbol",R_Small,R24,20,R_0603_1608Metric,1,~,Yageo,RC0603FR-0720RL,
 17,"Resistor, small symbol",R_Small,R3 R10 R16 R19 R29,49.9,R_1210_3225Metric,5,~,Yageo,RC1210FR-0749R9L,
 18,"Resistor, small symbol",R_Small,R23 R33,100,R_0603_1608Metric,2,~,Yageo,RC0603FR-07100RL,
 19,"Resistor, small symbol",R_Small,R7,140,R_0603_1608Metric,1,~,Yageo,RC0603FR-07140RL,
 20,"Resistor, small symbol",R_Small,R9 R11 R12 R13 R18 R20,200,R_0603_1608Metric,6,~,Yageo,RC0603FR-07200RL,
 21,"Resistor, small symbol",R_Small,R8,287,R_0603_1608Metric,1,~,Yageo,RC0603FR-07287RL,
-22,"Resistor, small symbol",R_Small,R5 R17 R25 R30 R31 R32 R34 R35,390,R_0603_1608Metric,8,~,Yageo,RC0603FR-07390RL,
+22,"Resistor, small symbol",R_Small,R5 R14 R17 R25 R30 R31 R32 R34 R35,390,R_0603_1608Metric,9,~,Yageo,RC0603FR-07390RL,
 23,"Resistor, small symbol",R_Small,R6 R15 R21 R22 R27 R28,499,R_0603_1608Metric,6,~,Susumu,RR0816P-4990-D-68A,
 24,"Resistor, small symbol",R_Small,R32A1,845,R_0603_1608Metric,1,~,Yageo,RC0603FR-07845RL,
 25,"Resistor, small symbol",R_Small,R11A1 R21A1,2.49k,R_0603_1608Metric,2,~,Yageo,RC0603FR-072K49L,
@@ -36,7 +36,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 35,,LT1568,U16,LT1568,SSOP-16_3.9x4.9mm_P0.635mm,1,,Analog Devices,LT1568CGN#PBF,
 36,"500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR Linear Regulator, MSOP-12",LT3045xMSE,U2 U3,LT3045xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,2,https://www.analog.com/media/en/technical-documentation/data-sheets/3045fa.pdf,Analog Devices,LT3045EMSE#PBF,
 37,"-500mA, Adjustable, Ultralow Noise, Ultrahigh PSRR RF Negative Linear Regulator, MSOP-12",LT3094xMSE,U1,LT3094xMSE,MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm,1,https://www.analog.com/media/en/technical-documentation/data-sheets/LT3094.pdf,Analog Devices,LT3094EMSE#PBF,
-38,"Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SO-8",OPA890xD,U5 U9 U13 U14 U17,OPA695,SOIC-8_3.9x4.9mm_P1.27mm,5,https://www.ti.com/lit/ds/symlink/opa890.pdf,Texas Instruments,OPA695ID,
+38,"Single Low-Power, Wideband, Voltage-Feedback Operational Amplifier with Disable, SOT-23-6",OPA890xDBV,U5 U9 U13 U14 U17,OPA695,SOT-23-6,5,https://www.ti.com/lit/ds/symlink/opa890.pdf,Texas Instruments,OPA695IDBVR,
 
 
 
@@ -47,9 +47,9 @@ Component Count:,130
 Fitted Components:,119
 Number of PCBs:,1
 Total components:,119
-Schematic Version:,1.3.3
-Schematic Date:,2023-03-22
+Schematic Version:,1.3.4
+Schematic Date:,2023-06-15
 PCB Variant:,default
-BoM Date:,07.06.2023 16:53:27
+BoM Date:,19.10.2023 21:11:56
 Schematic Source:,MTS_module.kicad_sch
 KiCad Version:,Eeschema (6.0.7)

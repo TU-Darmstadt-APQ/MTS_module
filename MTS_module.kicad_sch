@@ -1000,7 +1000,7 @@
       (reference "R13") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ed737a"
-      (reference "R14") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R14") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f2ba399"
       (reference "R15") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
