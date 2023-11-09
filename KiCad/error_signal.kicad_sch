@@ -2453,7 +2453,7 @@
     (property "Value" "Demod_In" (at 205.8162 44.5262 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" (at 207.645 48.26 0)
+    (property "Footprint" "footprints:SMA_Amphenol_901-143_Horizontal_mod" (at 207.645 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 207.645 48.26 0)
