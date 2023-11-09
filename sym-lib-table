@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "custom")(type "Legacy")(uri "${KIPRJMOD}/lib/custom.lib")(options "")(descr ""))
-  (lib (name "Custom_logos")(type "Legacy")(uri "${KIPRJMOD}/lib/Custom_logos.lib")(options "")(descr ""))
-)
