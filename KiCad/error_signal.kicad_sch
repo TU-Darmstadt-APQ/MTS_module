@@ -3282,7 +3282,7 @@
     (property "Value" "SYPD-1" (at 130.81 42.5196 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RF_Mini-Circuits:Mini-Circuits_TTT167_LandPatternPL-079" (at 128.27 60.96 0)
+    (property "Footprint" "footprints:Mini-Circuits_TTT167_LandPatternPL-079_DNF" (at 128.27 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.minicircuits.com/pdfs/SYPD-1+.pdf" (at 125.73 58.42 0)

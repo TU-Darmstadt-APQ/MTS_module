@@ -1465,7 +1465,7 @@
     (property "Value" "HMC1031" (at 109.855 118.7704 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm" (at 104.14 119.38 0)
+    (property "Footprint" "footprints:MSOP-8_3x3mm_P0.65mm_mod_DNF" (at 104.14 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 104.14 119.38 0)

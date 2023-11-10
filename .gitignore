@@ -27,4 +27,4 @@ footprints_project_specific.3dshapes
 *.kicad_prl
 
 # KiCAD 7 Files #
-\#auto_saved_files#
+\#auto_saved_files\#
