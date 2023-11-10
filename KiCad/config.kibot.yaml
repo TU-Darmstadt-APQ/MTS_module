@@ -9,7 +9,7 @@ preflight:
   filters:
     - filter: 'Custom 3D models were added to the footprints'
       error: lib_footprint_mismatch
-      regex: 'SMA_Amphenol_132289_EdgeMount|Mini-Circuits_TTT167_LandPatternPL-079_DNF|DIN41612_C_2x32_Male_Horizontal_THT|Potentiometer_Vishay_43_Horizontal|SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm'
+      regex: 'SMA_Amphenol_132289_EdgeMount|Mini-Circuits_TTT167_LandPatternPL-079_DNF|DIN41612_C_2x32_Male_Horizontal_THT|Potentiometer_Vishay_43_Horizontal|SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm'
     - filter: 'Ignore the silkscreen clipped by the edge cuts of the potentiometer'
       error: silk_edge_clearance
       regex: 'Silkscreen clipped by board edge'
