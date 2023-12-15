@@ -35,9 +35,11 @@ The VCO type determines the output frequency range of the AOM signal.
 
 - `110MHz_VCO (master)`: 100 to 140 MHz
 
-- `80MHz/200MHz_VCO`: 60 to 110 MHz or 140 to 250 MHz with identical PCB
+- `80MHz/200MHz_VCO`: 60 to 110 MHz or 140 to 250 MHz. This version can be found [here](https://github.com/TU-Darmstadt-APQ/MTS-module_80MHz_200MHz) 
+
 - `80MHz/200MHz_VCO_Rev1.2`: deprecated version
-- 
+
+  
 
 
 Design Files
